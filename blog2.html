@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokimahery Ramarozaka</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="blog2.css" />
+</head>
+<body>
+
+  <header>
+    <div class="partis">
+       <div class="nav-container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+
+      <div class="menu-btn" id="mobile-menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav id="nav-menu">
+        <a href="index.html">HOME</a>
+        <a href="blog.html">BLOG</a>
+        <a href="course.html">COURSES</a>
+        <a href="TESTIMONIALS.html">TESTIMONIALS</a>
+        <a href="RESEARCH.html">RESEARCH</a>
+      </nav>
+
+      <div class="nav-right">
+        <p class="search-text">Search anything...</p>
+        <div class="cart-wrapper">
+          <div id="cart-trigger" class="cart-icon">
+             <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="white" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          </div>
+          <div id="cart-dropdown" class="cart-dropdown">
+             <div class="cart-header"><span>Your cart</span><span id="close-cart" class="close-btn">&times;</span></div>
+             <p class="empty-msg">Your cart is empty.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="blog-intro-container">
+        <div class="badge-wrapper">
+            <span class="red-line"></span>
+            <span class="badge-text">WRITING</span>
+            <span class="red-line"></span>
+        </div>
+        <h1 class="blog-main-title">The <span class="italic-red">blog</span></h1>
+        <p class="blog-desc">Thoughts on teaching, software engineering, languages, and everything in between.</p>
+    </div>
+
+  <div class="main-content-area">
+    <div class="blog-grid-layout">
+    
+        <div class="articles-feed">
+            
+            <div class="post-item">
+                <div class="post-thumb">
+                    <img src="homme.jpg" alt="Article image">
+                </div>
+                <div class="post-info">
+                    <h2>Spring Boot Beyond CRUD</h2>
+                    <span class="post-date">May 27, 2026</span>
+                    <p> Teaching Spring Boot is not about generating controllers. It is about architecture: layered design, validation, security, JPA relationships, and writing backend systems that remain maintainable years later.</p>
+                    <div class="post-tags">
+                        <span class="tag-blue">spring-boot</span>
+                        <span class="tag-blue">java</span>
+                        <span class="tag-blue">backend</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-item">
+                <div class="post-thumb">
+                    <img src="homme.jpg" alt="Article image">
+                </div>
+                <div class="post-info">
+                    <h2>Technical English Is a Career Lever</h2>
+                    <span class="post-date">July 14, 2026</span>
+                    <p>Reading documentation, writing clear README files, and communicating ideas internationally are critical skills for developers. Integrating technical English into IT training unlocks global opportunities.</p>
+                    <div class="post-tags">
+                        <span class="tag-blue">english</span>
+                        <span class="tag-blue">career</span>
+                        <span class="tag-blue">education</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sidebar-feed">
+            
+            <div class="widget-card">
+                <div class="widget-title-box">
+                    <span class="title-line"></span>
+                    <span class="title-text">ARCHIVES</span>
+                </div>
+                <div class="archive-row"><span>January 2026</span> <span class="num">2</span></div>
+                <div class="archive-row"><span>February 2026</span> <span class="num">1</span></div>
+            </div>
+
+            <div class="widget-card">
+                <div class="widget-title-box">
+                    <span class="title-line"></span>
+                    <span class="title-text">NEWSLETTER</span>
+                </div>
+                <p class="widget-info">Get new articles straight to your inbox. No spam, ever.</p>
+                <form class="news-form">
+                    <input type="email" placeholder="your@email.com">
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </div>
+
+            <div class="widget-card">
+                <div class="widget-title-box">
+                    <span class="title-line"></span>
+                    <span class="title-text">ON YOUTUBE</span>
+                </div>
+                <p class="widget-info">Latest videos from the channel.</p>
+            </div>
+
+        </div>
+    </div>
+<div class="blog-main-grid">
+    <div class="articles-column">
+        <article class="post-entry">
+            <div class="post-image-container">
+                <img src="homme.jpg" alt="Why Git Is a Survival Skill">
+            </div>
+            <div class="post-content">
+                <h2 class="post-title-red">SEO for Engineers</h2>
+                <span class="post-meta">September 2, 2026</span>
+                <p class="post-excerpt">SEO is not just marketing. It is structured HTML, accessibility, performance optimization, and semantic clarity. Developers who understand search engines build better web applications.</p>
+                <div class="post-tags">
+                    <span class="tag-pill">seo</span>
+                    <span class="tag-pill">web-development</span>
+                    <span class="tag-pill">performance</span>
+                </div>
+            </div>
+        </article>
+
+        <article class="post-entry">
+            <div class="post-image-container">
+                <img src="homme.jpg" alt="Building a Secure Exam Platform">
+            </div>
+            <div class="post-content">
+                <h2 class="post-title-red">Narrative-Driven Programming Exercises</h2>
+                <span class="post-meta">November 18, 2026</span>
+                <p class="post-excerpt">I design algorithm problems with storytelling elements while keeping strict technical constraints. Students engage more deeply, and still practice loops, conditions, edge cases, and refactoring.</p>
+                <div class="post-tags">
+                    <span class="tag-pill">algorithms</span>
+                    <span class="tag-pill">pedagogy</span>
+                    <span class="tag-pill">programming</span>
+                </div>
+            </div>
+        </article>
+
+          <div class="pagination-container">
+    <div class="pagination">
+        <div class="nav-slider"></div>
+        
+        <a href="blog.html" class="page-item arrow">← Prev</a>
+        
+        <a href="blog.html" class="page-item">1</a>
+        <a href="blog2.html" class="page-item active">2</a>
+        
+        <span class="page-item arrow disabled">Next →</span>
+    </div>
+</div>
+      
+    </div>
+
+    <aside class="blog-sidebar">
+        <div class="sidebar-widget">
+            <div class="widget-header">
+                <span class="widget-line"></span>
+                <span class="widget-label">ON YOUTUBE</span>
+            </div>
+            
+            <div class="youtube-gallery">
+                <div class="yt-card">
+                    <div class="yt-thumbnail">
+                        <img src="https://img.youtube.com/vi/cdWNlGD_FzQ/mqdefault.jpg" alt="Counter App with Pharo">
+                        <div class="yt-play-btn">▶</div>
+                    </div>
+                    <p class="yt-card-title">Counter App with Pharo</p>
+                </div>
+
+                <div class="yt-card">
+                    <div class="yt-thumbnail">
+                        <img src="https://img.youtube.com/vi/cfS4XP4bBEk/mqdefault.jpg" alt="Build a DSL with Pharo">
+                        <div class="yt-play-btn">▶</div>
+                    </div>
+                    <p class="yt-card-title">Build a DSL with Pharo</p>
+                </div>
+
+                <div class="yt-card">
+                    <div class="yt-thumbnail">
+                        <img src="https://img.youtube.com/vi/Ut2aeuFc2KY/mqdefault.jpg" alt="My keyboard addiction">
+                        <div class="yt-play-btn">▶</div>
+                    </div>
+                    <p class="yt-card-title">My keyboard addiction</p>
+                </div>
+            </div>
+            <a href="#" class="view-all-link">VIEW ALL VIDEOS →</a>
+        </div>
+    </aside>
+</div>
+</div>
+<div class="cta-banner">
+  <div class="cta-content">
+    <h2>Want to go deeper?</h2>
+    <p>Explore the courses or get in touch for a consultation.</p>
+    
+    <div class="cta-buttons">
+      <a href="#" class="btn btn-white">BROWSE COURSES</a>
+      <a href="#" class="btn btn-outline">COLLABORATE</a>
+    </div>
+  </div>
+</div>
+  </header>
+  <script src="blog2.js"></script>
+</body>
+</html>
